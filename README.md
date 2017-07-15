@@ -1,4 +1,5 @@
 #Discord Trivia
+
 A discord trivia game that uses old Jeopardy! questions
 
 **Python Version**
