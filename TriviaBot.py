@@ -24,7 +24,7 @@ class question(object):
         global qs
         _q = random.choice(qs)
         self.question = _q['question']
-        self.answer = _q['answer']
+        self.answer = _q['answer'].translate(ignore)
         self.category = _q['category']
 
     def check(self, message):
